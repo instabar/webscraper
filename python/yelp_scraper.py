@@ -3,7 +3,10 @@ import os
 
 outfile = "output/yelp-output.json"
 find = "Bartending+Services"
-location = "Washington%2C+DC"
+# New%20York%2C%20NY
+# Washington%2C%20DC
+# Raleigh%2C%20NC
+location = "New%20York%2C%20NY"
 
 
 class YelpScraper(scrapy.Spider):
